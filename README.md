@@ -19,9 +19,9 @@
 | **9주차 (6.30)** | **C심화** |
 | **10주차 (7.7)** | **C심화** |
 <br>
-✅매 시간 과제 있음 -> 풀어서 깃허브에 제출할 것
+✅매 시간 **과제** 있음 -> 풀어서 깃허브에 제출할 것
 <br><br>
-**Visual Studio 설치하기**<br>링크->https://visualstudio.microsoft.com/ko/free-developer-offers/
+📌Visual Studio 설치하기<br>링크->https://visualstudio.microsoft.com/ko/free-developer-offers/
 <br><br>
 ⭐Visual Studio의 장점<br>
 - microsoft에서 만든 IDE(통합개발환경)인 만큼 다양한 기능 지원<br>
