@@ -7,8 +7,8 @@
 ## 스터디 진행 계획
 | 날짜 | 주제 | 자료 |
 |------|------|------|
-| **0주차** | Visual Studio 2019 설치 |[week1.c](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week1.c)
-| **1주차 (3.24)** | 개발환경, C언어 기초 |
+| **0주차** | Visual Studio 2019 설치 |
+| **1주차 (3.24)** | 개발환경, C언어 기초 |[week1.c](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week1.c)|
 | **2주차 (3.31)** | 자료형, 형변환, 표준 입출력 |
 | **3주차 (4.7)** | 연산자, 선택문 |
 | **4주차 (5.5)** | 반복문, 배열 |
