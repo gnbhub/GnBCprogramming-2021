@@ -20,7 +20,7 @@
 | **10주차 (7.7)** | **C심화** |
 <br>
 
-### ✅ evert 매 시간 과제 있음 -> 풀어서 깃허브에 제출할 것
+### ✅ Homework every lecture -> 풀어서 깃허브에 제출할 것
 <br><br>
 ### 📌 Visual Studio 설치하기<br>링크->https://visualstudio.microsoft.com/ko/free-developer-offers/
 <br><br>
