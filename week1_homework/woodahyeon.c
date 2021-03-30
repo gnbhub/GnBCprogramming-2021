@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define 학과 "전자공학부"
+#define TEXT "전자공학부"
 int main(void) {
 
 	printf(학과"\n");
