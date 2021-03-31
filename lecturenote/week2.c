@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#pragma warning(disable:4996)
+#define _CRT_SECURE_NO_WARNINGS
 int main(void) {
 
 	int num1 = 10, num2 = 5;
