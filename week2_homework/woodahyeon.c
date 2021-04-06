@@ -18,7 +18,7 @@ int main(void) {
 	printf("number 2   |%+11d|%11o|%11x|\n", num2,num2,num2);
 	printf("sum        |%-+11d|%-11o|%-11x|\n",result,result,result);
 	//이거 테이블 제목 11칸도 띄어쓰기 말고 변수 사용해서 하는 건가요??
-	//시간이 늦어서 주석으로 달아용,, 내일 일찍 일어나면 지울게요! 
+	
 	return 0;
 
 }
