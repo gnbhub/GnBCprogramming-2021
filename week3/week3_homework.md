@@ -1,4 +1,4 @@
-### 1 2진수 음수 판단
+### 1. 2진수 음수 판단
 ![image](https://user-images.githubusercontent.com/77336436/113852501-921bf280-97d7-11eb-90fd-5228bda26fb8.png)
 
 <참고>
