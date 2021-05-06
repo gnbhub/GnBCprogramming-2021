@@ -2,7 +2,6 @@
 
 ## 1. 조건문 예제
 ![image](https://user-images.githubusercontent.com/77336436/117257229-a3175c80-ae86-11eb-8bab-a505ba8d699a.png)
-
 <br>
 Math.h를 사용해도 무방 <br>
 참고자료 -> https://m.blog.naver.com/PostView.nhn?blogId=highkrs&logNo=220216096032&proxyReferer=https:%2F%2Fwww.google.com%2F
