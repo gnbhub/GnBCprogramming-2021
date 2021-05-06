@@ -10,7 +10,7 @@
 | **0주차** | Visual Studio 2019 설치 |
 | **1주차 (3.24)** | 개발환경, C언어 기초 |[week1.c](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week1.c)|
 | **2주차 (3.31)** | 자료형, 형변환, 표준 입출력 |[week2.c](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week2.c)|
-| **3주차 (4.7)** | 연산자 |
+| **3주차 (4.7)** | 연산자 |[week3_homework.md](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week3/week3_homework.md)
 | **4주차 (5.5)** | 선택문, 반복문 |
 | **5주차 (5.12)** | 배열, 함수, 변수 종류 |
 | **6주차 (5.19)** | 구조체, 포인터 |
