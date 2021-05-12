@@ -5,7 +5,7 @@ int main(void)
     int i, j = 1;
     for (i = 1; i <= 10; i++)
     {
-        printf("%2dÀÇ ¾à¼ö´Â ", i);
+        printf("%2dì˜ ì•½ìˆ˜ëŠ” ", i);
         for (j = 1; j <= i; j++)
         {
 
