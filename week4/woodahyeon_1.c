@@ -21,8 +21,8 @@ int main(void)
 
 	if (x1 != x2 && y1 != y2){
 		printf("둘레의 길이: %.2lf", p);
-		printf("대각선의 길이: %.2lf", d);
-		printf("넓이: %.2lf", a);
+		printf("\n대각선의 길이: %.2lf", d);
+		printf("\n넓이: %.2lf", a);
 	}
 	else
 		printf("직사각형이 아닙니다.");
