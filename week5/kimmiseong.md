@@ -1,3 +1,5 @@
+1. 최대 공약수 계산하기
+
 ```C
 #include "header.h"
 
@@ -57,4 +59,28 @@ void MoveSquare()
 
 ```
 
+
+2. 피라미드 출력하기
+
+```C
+#include "header.h"
+
+void GotoXY(int x, int y)
+{
+	COORD Pos;
+	Pos.X = x;
+	Pos.Y = y;
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), Pos);
+}
+
+void CursorView(char show)
+{
+	CONSOLE_CURSOR_INFO ConsoleCursor;
+	ConsoleCursor.bVisible = show;
+	ConsoleCursor.dwSize = 1;
+	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &ConsoleCursor);
+}
+
+
+```
 
