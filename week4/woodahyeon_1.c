@@ -24,9 +24,8 @@ int main(void)
 		printf("대각선의 길이: %.2lf", d);
 		printf("넓이: %.2lf", a);
 	}
-	else {
+	else
 		printf("직사각형이 아닙니다.");
-	}
 
 	return 0;
 }
