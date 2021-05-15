@@ -40,7 +40,7 @@ int main(void)
 ```
 
 
-![jiwoo5-1][jiwoo/jiwoo5-1.png]
+![jiwoo5-1](jiwoo/jiwoo5-1.png)
 
 2. 피라미드 출력하기
 
@@ -94,4 +94,4 @@ int main(void)
 
 ```
 
-![jiwoo5-2][jiwoo/jiwoo5-2.png]
+![jiwoo5-2](jiwoo/jiwoo5-2.png)
