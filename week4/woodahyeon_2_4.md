@@ -1,3 +1,4 @@
+```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int main(void) {
@@ -18,3 +19,6 @@ int main(void) {
 	}
 	return 0;
 }
+
+```
+![image](https://user-images.githubusercontent.com/51956616/118415312-95fb3880-b6e4-11eb-883b-caf2e8484227.png)
