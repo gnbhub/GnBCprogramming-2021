@@ -18,6 +18,4 @@ int main(void) {
 	return 0;
 }
 ```
-```
 ![image](https://user-images.githubusercontent.com/51956616/118414954-8e3a9480-b6e2-11eb-93ce-5b3801d91651.png)
-```
