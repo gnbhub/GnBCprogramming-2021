@@ -40,24 +40,28 @@ int main(void) {
 int main(void) {
 
 	int n=0, i, j, k, l;
-	printf("라인 수: ");
-	scanf("%d", &n);
-	for (i = 1; i <= n ; i++) {
-		if (n > 10 || n < 0){
-			printf("[입력오류]피라미드 라인 수는 10 이하의 양의 정수만 가능합니다. 다시 입력해주세요.\n")
+	while (1) {
+		printf("라인 수: ");
+		scanf("%d", &n);
+		if (n > 10 || n < 0) {
+			printf("[입력오류]피라미드 라인 수는 10이하의 양의 정수만 가능합니다. 다시 입력해주세요.\n");
+			continue;
 		}
 		else {
-			for (j = n - i; j >= 0; j--)
-				printf(" ");
-			for (k = i-1; k >= 0; k--)
-				printf("%d", k);
-			if (i >= 2)
-				for (l = 1; l <= i - 1; l++)
-					printf("%d", l);
-			printf("\n");
+			for (i = 1; i <= n; i++) {
+				for (j = n - i; j >= 0; j--)
+					printf(" ");
+				for (k = i - 1; k >= 0; k--)
+					printf("%d", k);
+				if (i >= 2)
+					for (l = 1; l <= i - 1; l++)
+						printf("%d", l);
+				printf("\n");
+			}
+			break;
 		}
 	}
 	return 0;
 }
 ```
-![image](https://user-images.githubusercontent.com/51956616/118415387-fd18ed00-b6e4-11eb-9c88-70d347fdf663.png)
+![image](https://user-images.githubusercontent.com/51956616/118415738-20dd3280-b6e7-11eb-80d4-85e04400ca70.png)
