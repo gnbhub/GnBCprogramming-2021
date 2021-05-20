@@ -29,4 +29,6 @@ for (; e > 10 || e < 0;)
 		printf("\n");
 	}
 	return 0;
-} //이거 캡쳐 사진 어떻게 올려요???
+} 
+
+![image](https://user-images.githubusercontent.com/81066580/118950296-06c87c00-b995-11eb-9772-5cf6e0016c65.png)
