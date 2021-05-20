@@ -34,3 +34,6 @@ int main(void)
 	printf("최대공약수는 : %d입니다.", d);
 	return 0;
 } // homework 유클리드 알고리즘 설명 부분 이해 안감
+
+![image](https://user-images.githubusercontent.com/81066580/118949905-a5081200-b994-11eb-8dfd-32fce38fbe9d.png)
+
