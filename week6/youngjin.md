@@ -20,6 +20,8 @@ int main(void) {
 }
 ```
 <img width="720" alt="11" src="https://user-images.githubusercontent.com/81066580/119499728-f43db080-bda1-11eb-9dbe-b10e10fe1999.png">
+
+
 ```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
