@@ -19,9 +19,8 @@ int main(void) {
 	return 0;
 }
 ```
-```
 ![image](https://user-images.githubusercontent.com/51956616/119524737-ddef1f00-bdb8-11eb-95ec-78829d7e4b36.png)
-```
+
 
 2.
 ```c
@@ -53,8 +52,7 @@ int main(void) {
 	return 0;
 }
 ```
-```
 ![image](https://user-images.githubusercontent.com/51956616/119524772-e47d9680-bdb8-11eb-9335-e2cb3acc7629.png)
-```
+
 
 3. 5
