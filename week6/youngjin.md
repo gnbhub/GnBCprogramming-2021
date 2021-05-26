@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 int main(void) {
-	char words[100];
+	char words[100] = {0, }; // 처리하셈
 	int i=0;
 
 	printf("영어 단어 입력 : ");
