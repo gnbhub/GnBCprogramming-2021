@@ -8,13 +8,13 @@
 | 날짜 | 주제 | 자료 |
 |------|------|------|
 | **0주차** | Visual Studio 2019 설치 |
-| **1주차 (3.24)** | 개발환경, C언어 기초 |[week1.c](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week1.c)|
-| **2주차 (3.31)** | 자료형, 형변환, 표준 입출력 |[week2.c](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week2.c)|
-| **3주차 (4.7)** | 연산자 |[week3_homework.md](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week3/week3_homework.md)
+| **1주차 (3.24)** | 개발환경, C언어 기초 |[week1](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week1.c)|
+| **2주차 (3.31)** | 자료형, 형변환, 표준 입출력 |[week2](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week2.c)|
+| **3주차 (4.7)** | 연산자 |[week3](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week3/week3_homework.md)
 | **4주차 (5.5)** | 선택문, 반복문 |[week4](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week4/week4_homework.md)
-| **5주차 (5.12)** | 배열, 함수, 변수 종류 |
-| **6주차 (5.19)** | 구조체, 포인터 |
-| **7주차 (5.26)** | **C심화**<br>-이중포인터, 함수포인터 |
+| **5주차 (5.12)** | 배열, 함수, 변수 종류 |[week5](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week5/week5.md)
+| **6주차 (5.19)** | 구조체, 포인터 |[week6](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week6/week6_homework.md)
+| **7주차 (5.26)** | **C심화**<br>-이중포인터, 함수포인터 |[week7](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week7/week7_homework.md)
 | **8주차 (6.23)** | **C심화**<br>-동적메모리할당, 헤더파일 사용, 문자열 함수 |
 | **9주차 (6.30)** | **C심화** |
 | **10주차 (7.7)** | **C심화** |
