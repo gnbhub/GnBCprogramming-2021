@@ -12,12 +12,12 @@
 | **2주차 (3.31)** | 자료형, 형변환, 표준 입출력 |[week2](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/lecturenote/week2.c)|
 | **3주차 (4.7)** | 연산자 |[week3](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week3/week3_homework.md)
 | **4주차 (5.5)** | 선택문, 반복문 |[week4](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week4/week4_homework.md)
-| **5주차 (5.12)** | 배열, 함수, 변수 종류 |[week5](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week5/week5.md)
-| **6주차 (5.19)** | 구조체, 포인터 |[week6](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week6/week6_homework.md)
-| **7주차 (5.26)** | **C심화**<br>-이중포인터, 함수포인터 |[week7](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week7/week7_homework.md)
-| **8주차 (6.23)** | **C심화**<br>-동적메모리할당, 헤더파일 사용, 문자열 함수 |
-| **9주차 (6.30)** | **C심화** |
-| **10주차 (7.7)** | **C심화** |
+| **5주차 (5.12)** | 제어문 실습 |[week5](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week5/week5.md)
+| **6주차 (5.19)** | 배열 |[week6](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week6/week6_homework.md)
+| **7주차 (5.26)** | 함수 |[week7](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week7/week7_homework.md)
+| **8주차 (6.23)** | 포인터, 구조체 |
+| **9주차 (6.30)** | **C심화** <br>- 이중포인터, 함수 포인터 |
+| **10주차 (7.7)** | **C심화** <br>- 동적메모리할당, 헤더파일 사용, 문자열 함수 |
 <br>
 
 ### ✅ Homework every lecture -> 풀어서 깃허브에 제출할 것
