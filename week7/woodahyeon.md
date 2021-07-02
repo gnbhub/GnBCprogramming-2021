@@ -2,7 +2,7 @@
 ```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-int num, result;
+int num;
 int factorial(int num);
 int factorial(int num) {
 	if (num == 1) return 1;
@@ -11,12 +11,12 @@ int factorial(int num) {
 int main(void) {
 	printf("계산할 수를 입력하세요: ");
 	scanf("%d", &num);
-	result = factorial(num);
-	printf("%d", result);
+	printf("%d", factorial(num));
 	return 0;
 }
 ```
 ![image](https://user-images.githubusercontent.com/51956616/124294989-4c32b880-db93-11eb-8702-916b72e70b44.png)
+
 
 
 3.
@@ -30,7 +30,6 @@ int factorize(int n) {
 	for (i = 2; n % i != 0; i++);
 	return i;
 }
-
 int main(void) {
 	printf("수를 입력하세요: ");
 	scanf("%d", &n);
