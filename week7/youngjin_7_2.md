@@ -18,6 +18,7 @@ return 0;
 }
 ```
 <img width="725" alt="제목 없음" src="https://user-images.githubusercontent.com/81066580/124093338-bc0d4a00-da92-11eb-8bde-e07d94e4ecd7.png">
+
 ```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
