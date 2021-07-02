@@ -26,5 +26,6 @@ int main(void)
 	printf("%d" , result);
 	return 0;
 }
+```
 
 ![image](https://user-images.githubusercontent.com/81094980/124310213-d2a4c580-dba6-11eb-8994-7d2f3fe58905.png)
