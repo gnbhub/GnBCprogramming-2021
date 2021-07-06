@@ -45,6 +45,50 @@ int Right_Any_Shift(int a[6], int b[6], int i, int moving)
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+int Left_Any_Shift(int a[6], int b[6], int i, int moving);
+
+int main()
+{
+	int i = 0;
+	int a[6] = { 72, 1, 36, 56, 21, 23 };
+	int b[6];
+	printf("배열 a는 아래와 같습니다. \n");
+	for (i = 0; i < 6; i++)
+	{
+		printf("%d ", a[i]);
+	}
+	printf("\n\n");
+
+	printf("몇 칸 왼쪽으로 이동하시겠습니까? \n");
+	int moving;
+	scanf("%d", &moving);
+	b[i] = Left_Any_Shift(a, b, i, moving);
+	printf("\n\n배열 a를 왼쪽으로 %d만큼 이동시키면\n", moving);
+	for (i = 0; i < 6; i++)
+	{
+		printf("%d ", b[i]);
+	}
+}
+
+int Left_Any_Shift(int a[6], int b[6], int i, int moving)
+{
+	for (i = 0; i < 6 - moving; i++)
+	{
+		b[i] = a[i + moving];
+	}
+	for (i = 5; i >= 6 - moving; i--)
+	{
+		b[i] = a[i - 6 + moving];
+	}
+	return b[6];
+}
+```
+![image](https://user-images.githubusercontent.com/81094980/124647434-ed41ac00-ded0-11eb-92ef-8c07ec2b4be0.png)
+
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
 
 int main(void)
 {
