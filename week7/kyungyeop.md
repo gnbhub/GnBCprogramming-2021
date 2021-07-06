@@ -88,6 +88,43 @@ int Left_Any_Shift(int a[6], int b[6], int i, int moving)
 ```c
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h> 
+#include <time.h>  
+void Shuffle(int a[6], int i);
+
+int temp;
+
+int main()
+{
+	int i = 0;
+	int a[6] = { 72, 1, 36, 56, 21, 23 };
+
+	printf("배열을 랜덤으로 섞으면\n");
+	Shuffle(a, i);
+
+	for (int i = 0; i < 6; i++)
+		printf("%d", a[i]);
+	return 0;
+}
+void Shuffle(int a[6], int i)
+{
+	srand(time(NULL));
+	for (i = 0; i < 6; i++)
+	{
+		int randNum1 = rand() % 6;
+		int randNum2 = rand() % 6;
+		int temp;
+		temp = a[randNum1];
+		a[randNum1] = a[randNum2];
+		a[randNum2] = temp;
+	}
+}
+```
+![image](https://user-images.githubusercontent.com/81094980/124648372-24648d00-ded2-11eb-9d1e-74db9b84155e.png)
+
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 
 
 int main(void)
