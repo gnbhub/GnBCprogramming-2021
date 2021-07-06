@@ -12,7 +12,7 @@ int RightShift(int arr[6], int moving) { //함수 정의
 
 int main(void) {
   ...
-  int a[6] = RightShift(a, moving); //함수 호출
+  int a[i] = RightShift(a, moving); //함수 호출
   ...
   return 0;
 }
