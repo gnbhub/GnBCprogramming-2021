@@ -39,6 +39,7 @@ int Right_Any_Shift(int a[6], int b[6], int i, int moving)
 	return b[6];
 }
 ```
+![image](https://user-images.githubusercontent.com/81094980/124640623-a18b0480-dec8-11eb-8cc5-13371ae71d2d.png)
 
 ```c
 #define _CRT_SECURE_NO_WARNINGS
