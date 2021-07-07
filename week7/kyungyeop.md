@@ -126,6 +126,46 @@ void Shuffle(int a[6], int i)
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+void Ascending_Order(int a[6], int i);
+int temp;
+
+int main()
+{
+	int i = 0;
+	int a[6] = { 72, 1, 36, 56, 21, 23 };
+	int b[6];
+	printf("배열 a를 오름차순으로 배열하면\n");
+	Ascending_Order(a, i);
+
+	for (i = 0; i < 6; i++) 
+	{
+		printf("%d ", a[i]);
+	}
+	return 0;
+}
+
+void Ascending_Order(int a[6], int i)
+{
+	for (int i = 0; i < 6; i++)
+	{
+		for (int j = 0; j < 6 - i - 1; j++)
+		{
+			if (a[j] > a[j + 1])
+			{
+				temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+		}
+	}
+}
+```
+![image](https://user-images.githubusercontent.com/81094980/124755363-3db71900-df66-11eb-9910-f2269d88fd30.png)
+
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
 
 int main(void)
 {
