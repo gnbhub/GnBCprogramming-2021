@@ -69,3 +69,35 @@ int main() {
 }
 ```
 <img width="718" alt="제목 없음" src="https://user-images.githubusercontent.com/81066580/124697061-2275ea80-df21-11eb-902d-0f93f8fa4c32.png">
+
+[3]
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h> 
+int temp;
+void Shuffle(int a[6], int i) {
+	srand(time(NULL));
+	for (i = 0; i < 6; i++) {
+		int randNum1 = rand() % 6;
+		int randNum2 = rand() % 6;
+		int temp;
+		temp = a[randNum1];
+		a[randNum1] = a[randNum2];
+		a[randNum2] = temp;
+	}
+}
+int main() {
+	int i = 0;
+	int a[6] = { 1, 2, 3, 5, 7, 9 };
+	printf("배열을 랜덤으로 섞으면\n");
+	Shuffle(a, i);
+	for (int i = 0; i < 6; i++)
+		printf("%d ", a[i]);
+	return 0;
+}
+
+```
+<img width="718" alt="제목 없음" src="https://user-images.githubusercontent.com/81066580/124709726-c9b14c80-df36-11eb-8341-5c5eb230b88c.png">
+
