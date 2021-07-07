@@ -70,6 +70,7 @@ int main() {
 ```
 <img width="718" alt="제목 없음" src="https://user-images.githubusercontent.com/81066580/124697061-2275ea80-df21-11eb-902d-0f93f8fa4c32.png">
 
+
 [3]
 ```c
 #define _CRT_SECURE_NO_WARNINGS
