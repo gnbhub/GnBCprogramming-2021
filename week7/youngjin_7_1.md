@@ -109,7 +109,7 @@ int main() {
 int temp;
 int xyz(int a[6], int i) {
 	for (int i = 0; i < 6; i++) {
-		for (int j = 0; j < 6 - i - 1; j++) {
+		for (int j = 0; j < 5 - i; j++) {
 			if (a[j] > a[j + 1]) {
 				temp = a[j];
 				a[j] = a[j + 1];
@@ -131,3 +131,34 @@ int main() {
 }
 ```
 <img width="719" alt="제목 없음" src="https://user-images.githubusercontent.com/81066580/124711156-b0a99b00-df38-11eb-8e7c-d9fcbf87c4ce.png">
+
+[5]
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int temp;
+int xyz(int a[6], int i) {
+	for (int i = 0; i < 6; i++) {
+		for (int j = 0; j < 5 - i; j++) {
+			if (a[j] < a[j + 1]) {
+				temp = a[j];
+				a[j] = a[j + 1];
+				a[j + 1] = temp;
+			}
+		}
+	}
+}
+int main() {
+    int i = 0;
+	int a[6] = { 9, 7, 5, 3, 1, 13};
+	int b[6];
+	printf("배열 a를 내림차순으로 배열하면\n");
+	xyz(a, i);
+	for (i = 0; i < 6; i++) {
+		printf("%d ", a[i]);
+	}
+	return 0;
+}
+
+```
+<img width="713" alt="제목 없음" src="https://user-images.githubusercontent.com/81066580/124712250-0894d180-df3a-11eb-9454-b9be03d745fa.png">
