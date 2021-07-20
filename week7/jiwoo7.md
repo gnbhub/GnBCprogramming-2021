@@ -236,26 +236,33 @@ int main(void)
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main(void) 
+void f(a,i);
+int a, i;
+
+int main(void)
 {
-	int a, i;
 	scanf("%d", &a);
 
-	while (1){
-	for (i = 2; a % i != 0; i++) 
-	{
+	f (a,i);
 
-	}
-	printf("%d ", i);
-	
-	if (a / i == 1)
-		break;
-	else
-		a = a / i;
-
-	}
 	return 0;
 }
+
+void f(a,i) {
+	while (1) {
+		for (i = 2; a % i != 0; i++)
+		{
+
+		}
+		printf("%d ", i);
+
+		if (a / i == 1)
+			break;
+		else
+			a = a / i;
+	}
+}
+
 ```
 ![jiwoo7-3](https://user-images.githubusercontent.com/81032690/124269631-16cba200-db76-11eb-8ef8-d0c27db9e0ef.png)
 
