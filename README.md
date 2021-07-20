@@ -16,8 +16,6 @@
 | **6주차 (5.19)** | 배열 |[week6](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week6/week6_homework.md)
 | **7주차 (5.26)** | 함수 |[week7](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week7/week7_homework.md)
 | **8주차 (6.30)** | 포인터, 구조체 |
-| **9주차 (7.7)** | **C심화** <br>- 이중포인터, 함수 포인터 |
-| **10주차 (7.14)** | **C심화** <br>- 동적메모리할당, 헤더파일 사용, 문자열 함수 |
 <br>
 
 ### ✅ Homework every lecture -> 풀어서 깃허브에 제출할 것
