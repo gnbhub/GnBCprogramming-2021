@@ -62,3 +62,37 @@ int main(void)
 }
 ```
 ![image](https://user-images.githubusercontent.com/81094980/127308455-d5fa4fe6-7d11-4da7-9623-e17407ccdc39.png)
+
+```c
+#include <stdio.h>
+
+int main(void) 
+{
+    int data[5];
+    scanf_s("%d %d %d %d %d", &data[0], &data[1], &data[2], &data[3], &data[4]); 
+    int max = 0;
+    int n;
+    int* maxptr1 = &n;
+    for (n = 1; n < 5; n++) {
+        if (data[max] < data[n]) {
+            max = n;
+        }
+    }
+
+    printf("최대값의 인덱스 : %d\n", max);
+
+    int min = 0;
+    int m;
+    int* minptr1 = &m;
+    for (m = 1; m < 5; m++) {
+        if (data[m] < data[min]) {
+            min = m;
+        }
+    }
+
+    printf("최소값의 인덱스 : %d\n", min);
+
+
+    return 0;
+}
+```
