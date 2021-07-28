@@ -24,22 +24,16 @@ int b(point p) {
 int main(void) {
 	point p1, p2;
 
-	printf("점1의 x좌표 : ");
-	scanf("%d", &p1.x);
-	printf("점1의 y좌표 : ");
-	scanf("%d", &p1.y);
-	printf("점2의 x좌표 : ");
-	scanf("%d",&p2.x);
-	printf("점2의 y좌표 : ");
-	scanf("%d", &p2.y);
+	printf("점1의 x좌표 : "); scanf("%d", &p1.x);
+	printf("점1의 y좌표 : "); scanf("%d", &p1.y);
+	printf("점2의 x좌표 : "); scanf("%d",&p2.x);
+	printf("점2의 y좌표 : "); scanf("%d", &p2.y);
 
 	int result = a(p1, p2);
 	printf("(a) %d\n", result);
 
-	printf("(b) 점1은 ");
-	b(p1);
-	printf("점2는 ");
-	b(p2);
+	printf("(b) 점1은 "); b(p1);
+	printf("점2는 "); b(p2);
 
 	return 0;
 }
