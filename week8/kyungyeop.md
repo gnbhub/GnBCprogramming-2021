@@ -25,6 +25,7 @@ int main(void)
 	return 0;
 }
 ```
+![image](https://user-images.githubusercontent.com/81094980/127308717-44b48e16-9db8-4e5d-8696-614f8d8a660f.png)
 
 ```c
 #include <stdio.h>
