@@ -25,3 +25,38 @@ int main(void)
 	return 0;
 }
 ```
+
+```c
+#include <stdio.h>
+#include <string.h>
+struct point {
+	int x;
+	int y;
+};
+
+int quadrant(struct point p) 
+{
+	if ((p.x > 0) && (p.y > 0)) {
+		printf("제 1 사분면");
+	}
+	else if ((p.x < 0) && (p.y > 0)) {
+		printf("제 2 사분면");
+	}
+	else if ((p.x < 0) && (p.y < 0)) {
+		printf("제 3 사분면");
+	}
+	else {
+		printf("제 4 사분면");
+	}
+return 0;
+}
+
+int main(void) 
+{
+	struct point p;
+	printf("좌표를 입력 :");
+	scanf_s("%d %d", &p.x, &p.y);
+	quadrant(p);
+	return 0;
+}
+```
