@@ -39,3 +39,30 @@ int main(void) {
 }
 ```
 ![image](https://user-images.githubusercontent.com/51956616/127324083-9129574b-7f38-4d38-9d76-5205ff9fee93.png)
+
+
+2.
+```c
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main(void) {
+	int i, num, max=0, min=0;
+	printf("입력받을 배열 원소의 수 : ");
+	scanf("%d", &num);
+	int arr[100];
+	printf("수를 입력하세요 : ");
+	for (i = 0; i < num; i++) {
+		scanf("%d", &arr[i]);
+	}
+	int *ptr = arr;
+	for (i = 0; i < num; i++) {
+		if (*(ptr+max) < *(ptr+i)) max = i;
+	}
+	printf("최댓값 : %d, 인덱스[%d]\n", *(ptr + max), max);
+	for (i = 0; i < num; i++) {
+		if (*(ptr+min) > *(ptr + i)) min = i;
+	}
+	printf("최솟값 : %d, 인덱스[%d]", *(ptr + min), min);
+}
+```
+![image](https://user-images.githubusercontent.com/51956616/127433499-043ea776-f689-47ba-9e2f-bcb71eb74880.png)
