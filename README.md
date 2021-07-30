@@ -15,7 +15,7 @@
 | **5주차 (5.12)** | 제어문 실습 |[week5](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week5/week5.md)
 | **6주차 (5.19)** | 배열 |[week6](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week6/week6_homework.md)
 | **7주차 (5.26)** | 함수 |[week7](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week7/week7_homework.md)
-| **8주차 (7.21)** | 포인터, 구조체 |
+| **8주차 (7.21)** | 포인터, 구조체 |[week8](https://github.com/gnbhub/GnBCprogramming-2021/blob/main/week8/week8_homework.md)
 <br>
 
 ### ✅ Homework every lecture -> 풀어서 깃허브에 제출할 것
